@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-// Load the property file from file system
+// Load the properties from file system
 public class AppConfigFileSystem {
     private static final Logger LOGGER = LoggerFactory.getLogger(AppConfigFileSystem.class);
 

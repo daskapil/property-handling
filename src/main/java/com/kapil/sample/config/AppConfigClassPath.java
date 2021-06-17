@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-// Load property from Class path using Classpath
+// Load property from classpath using ClassLoader
 public class AppConfigClassPath {
     private static final Logger LOGGER = LoggerFactory.getLogger(AppConfigClassPath.class);
     private static final String APPLICATION_PROPERTIES = "application.properties";
